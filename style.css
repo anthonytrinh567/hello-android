@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+html, body { width: 100%, height: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.background {
+	background: url('http://hdwallpaper2013.com/wp-content/uploads/2012/12/Android-Background-HD-Wallpaper.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: fixed;
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.everything {
+	text-align: center;
+}
+
+h2 {
+	font-family: "Open Sans";
+	color: white;
+}
+
+.welcome h2 {
+	font-size: 2em;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.footer h2 {
+	font-size: .8em;
+}
+
+#android-logo {
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	padding-top: 100px;
+	display: inline-block;
+	position: relative;
+}
+
+#head {
+	background-color: rgb(51, 204, 51);
+	width: 300px;
+	height: 100px;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+#head #lant, #head #rant {
+	width: 10px;
+	height: 60px;
+	background-color: rgb(51, 204, 51);
+	border-radius: 10px;
+	display: inline-block;
+	margin: 0 60px;
+	margin-top: -30px;
+}
+
+#lant {
+	-ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari */
+    transform: rotate(-30deg);
+}
+
+#rant {
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(30deg);
+}
+
+#head #leye, #head #reye {
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	display: inline-block;
+	margin: 0 40px;
+}
+
+#body {
+	width: 300px;
+	height: 250px;
+	margin-top: 10px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background-color: rgb(51, 204, 51);
+    display: inline-block;
+	text-align: center;
+}
+
+#body #lleg, #body #rleg {
+	height: 90px;
+	width: 40px;
+	background-color: rgb(51, 204, 51);
+	border-radius: 50px;
+	display:inline-block;
+	margin: 0 40px;
+	margin-top: 230px;
+}
+
+#larm, #rarm {
+	height: 150px;
+	width: 50px;
+	background-color: rgb(51, 204, 51);
+	border-radius: 50px;
+	position: absolute;
+}
+
+#larm {
+	Left: 40px;
+}
+
+#rarm {
+	right: 30px;
+	top: 130px;
+	-webkit-animation:wave 1s linear .5s infinite forwards;
+    -moz-animation:wave .5s linear .5s infinite forwards;
+    animation:wave 1s linear .5s infinite forwards;
+}
+
+@-moz-keyframes wave { 
+	from {-webkit-transform: translateY(30px); /* Safari */
+    transform: translateY(30px);
+    opacity: 0; }
+    to {-webkit-transform: translateY(0px); /* Safari */
+    transform: translateY(0px);
+    opacity: 1; }
+}
+
+@-webkit-keyframes wave {
+	from {-webkit-transform: translateY(30px); /* Safari */
+    transform: translateY(30px);
+    opacity: 0; }
+    to {-webkit-transform: translateY(0px); /* Safari */
+    transform: translateY(0px);
+    opacity: 1; }
+}
+
+@keyframes wave {	
+	0% {
+	   -ms-transform: rotate(0deg); /* IE 9 */
+	    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+	    transform: rotate(0deg);
+	}
+	50% {
+	   -ms-transform: rotate(20deg); /* IE 9 */
+	    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+	    transform: rotate(20deg);
+	}
+	100% {
+	   -ms-transform: rotate(0deg); /* IE 9 */
+	    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+	    transform: rotate(0deg);
+	}
+}
